@@ -1,13 +1,29 @@
 site_name: Road to Verification
 site_description: Personal blog of a Digital IC Verification Engineer.
-site_url: https://sitename.example
+site_url: https://choya-lee.github.io/verifi_blog/
+site_author: Zyli
+
+copyright: Copyright &copy; 2025 -  Zyli
+
 theme:
   name: material
+  logo: avatar.png
+  favicon: avatar.png
   custom_dir: overrides
+
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -22,13 +38,13 @@ theme:
         name: Switch to light mode
   
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - blog:
       blog_dir: .
-      archive_date_format: MM/yyyy
-      archive_url_date_format: MM/yyyy
+      archive_date_format: yyyy
+      archive_url_date_format: yyyy
       categories_allowed:
-        - Protocol
         - PCIE
         - UVM
         - CXL
