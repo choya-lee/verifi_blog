@@ -48,12 +48,9 @@ plugins:
         - PCIE
         - UVM
         - CXL
-        - Life
-        - Photography
       post_url_format: "{slug}"
 
-  - tags:
-      tags_file: tags.md
+  - tags
 
   - rss:
       match_path: "posts/.*"

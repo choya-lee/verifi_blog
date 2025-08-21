@@ -2,7 +2,7 @@
 date:
   created: 2025-08-18 
   updated: 2025-08-18 
-categories:
+tags:
   - PCIE
 readtime: 10
 ---
