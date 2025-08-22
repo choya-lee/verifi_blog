@@ -5,9 +5,10 @@ date:
 tags:
   - PCIE
 categories:
-  - Protocol
+  - PCIE
 authors:
   - joy
+comments: true
 slug: pcie_pl
 ---
 

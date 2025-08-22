@@ -1,9 +1,9 @@
 site_name: Road to Verification
 site_description: Personal blog of a Digital IC Verification Engineer.
 site_url: https://choya-lee.github.io/verifi_blog/
-site_author: Zyli
+site_author: zyli
 
-copyright: Copyright &copy; 2025 -  Zyli
+copyright: Copyright &copy; 2025 -  zyli
 
 theme:
   name: material
@@ -12,11 +12,10 @@ theme:
   custom_dir: overrides
 
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.sections
-    - navigation.top
-    - navigation.footer
     - navigation.indexes
     - toc.follow
 
@@ -50,7 +49,9 @@ plugins:
         - CXL
       post_url_format: "{slug}"
 
-  - tags
+  - tags:
+      enabled: true
+      tags: true
 
   - rss:
       match_path: "posts/.*"
@@ -69,6 +70,7 @@ plugins:
       type: date
       fallback_to_build_date: false
       enable_creation_date: true
+      enable_git_follow: false
       enabled: true
 
 # extra:
@@ -85,3 +87,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# page tree
+nav:
+- Home: index.md
+- Protocol: posts/protocol/pcie/physical_layer.md
