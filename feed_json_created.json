@@ -1,0 +1,30 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Road to Verification",
+    "home_page_url": "https://choya-lee.github.io/verifi_blog/",
+    "feed_url": "https://choya-lee.github.io/verifi_blog/feed_json_created.json",
+    "description": "Personal blog of a Digital IC Verification Engineer.",
+    "icon": null,
+    "authors": [
+        {
+            "name": "zyli"
+        }
+    ],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://choya-lee.github.io/verifi_blog/pcie_pl/",
+            "url": "https://choya-lee.github.io/verifi_blog/pcie_pl/",
+            "title": "Physical Layer",
+            "content_html": "<h1>Physical Layer</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.</p>\n<p><code>py\ndraft: true</code></p>",
+            "image": null,
+            "date_published": "2025-08-19T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "zyli"
+                }
+            ],
+            "tags": null
+        }
+    ]
+}

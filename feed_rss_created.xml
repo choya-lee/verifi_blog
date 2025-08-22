@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Road to Verification</title>
+    <description>Personal blog of a Digital IC Verification Engineer.</description>
+    <link>https://choya-lee.github.io/verifi_blog/</link>
+    <atom:link href="https://choya-lee.github.io/verifi_blog/feed_rss_created.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>zyli</managingEditor>
+    
+    <language>en</language>
+
+    
+    <pubDate>Fri, 22 Aug 2025 17:11:32 -0000</pubDate>
+    <lastBuildDate>Fri, 22 Aug 2025 17:11:32 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.17.3</generator>
+
+    
+    
+    <image>
+      <url>None</url>
+      <title>Road to Verification</title>
+      <link>https://choya-lee.github.io/verifi_blog/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>Physical Layer</title>
+      
+      
+        
+      <author>zyli</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Physical Layer&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;py
+draft: true&lt;/code&gt;&lt;/p&gt;</description>
+      <link>https://choya-lee.github.io/verifi_blog/pcie_pl/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <source url="https://choya-lee.github.io/verifi_blog/feed_rss_created.xml">Road to Verification</source>
+      
+      <guid isPermaLink="true">https://choya-lee.github.io/verifi_blog/pcie_pl/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
